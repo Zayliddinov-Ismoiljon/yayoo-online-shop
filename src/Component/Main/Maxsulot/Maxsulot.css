@@ -1,0 +1,159 @@
+.maxsulot{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.maxsulot__list{
+    list-style-type: none;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.maxsulot__item{
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #A0A0A0;
+    box-shadow: 0px 10px 35px -8px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    margin-bottom: 62px;
+    padding-bottom: 20px;
+}
+
+.maxsulot__img{
+    width: 100%;
+    height: 203px;
+}
+
+.maxsulot__name, .maxsulot__fullname, .maxsulot__artistname{
+    color: #999999;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.maxsulot__fullname{
+    margin: 13px 0px;
+}
+
+.maxsulot__artistname{
+    margin-bottom: 25px;
+}
+
+.booking__btn{
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.maxsulot__text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .maxsulot{
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .maxsulot__list{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .maxsulot__item{
+        width: 48%;
+        
+    }
+
+    .maxsulot__img{
+        width: 100%;
+        height: 120px;
+    }
+
+    .maxsulot__name, .maxsulot__fullname{
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .maxsulot__artistname{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 576px){
+    .container{
+        width: 100%;
+    }
+
+    .maxsulot{
+        padding-top: 50px;
+    }
+
+    .maxsulot__list{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .maxsulot__img{
+        width: 100%;
+        height: 190px;
+    }
+
+    .maxsulot__name, .maxsulot__fullname, .maxsulot__artistname{
+        font-size: 18px;
+        margin: 5px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 524px){
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .maxsulot__list{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .maxsulot__item{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+}

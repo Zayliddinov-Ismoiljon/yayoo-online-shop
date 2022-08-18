@@ -1,0 +1,39 @@
+.form__label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form__input{
+    width: 200px;
+    border: none;
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.submit-btn{
+    border: none;
+    /* width: 120px; */
+    border-radius: 12px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#alert{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+}
+
+@media only screen and (max-width:375px){
+    .container{
+        width: 100%;
+    }
+}
