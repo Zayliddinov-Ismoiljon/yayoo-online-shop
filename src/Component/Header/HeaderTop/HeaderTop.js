@@ -1,12 +1,9 @@
 import React from 'react';
 import Logo from '../../../Assets/Images/Logo.png';
 import BurgerBtn from './BurgerBtn';
-
-
 import './HeaderTop.css';
 
 export default function HeaderTop() {
-
 	return (
 		<>
 			<div className='header'>

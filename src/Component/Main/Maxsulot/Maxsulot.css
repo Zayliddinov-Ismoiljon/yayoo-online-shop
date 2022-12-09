@@ -15,8 +15,8 @@
 }
 
 .maxsulot__item{
-    width: 250px;
-    padding: 15px;
+    width: 18%;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
@@ -30,26 +30,31 @@
 
 .maxsulot__img{
     width: 100%;
-    height: 203px;
+    height: 170px;
 }
 
-.maxsulot__name, .maxsulot__fullname, .maxsulot__artistname{
+.maxsulot__name, .maxsulot__fullname, .maxsulot__artistname, .maxsulot__guarantee, .maxsulot__usingdate{
     color: #999999;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 29px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin-top: 5px;
     padding: 0;
 }
 
-.maxsulot__fullname{
-    margin: 13px 0px;
+.maxsulot__artistname{
+    margin-bottom: 5px;
 }
 
-.maxsulot__artistname{
-    margin-bottom: 25px;
+.maxsulot__guarantee, .maxsulot__usingdate{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.maxsulot__fullname{
+    margin: 5px 0px;
 }
 
 .booking__btn{
@@ -74,86 +79,23 @@
     color: #8B8B8B;
 }
 
-@media only screen and (max-width: 375px){
-    .container{
+@media only screen and (max-width:568px){
+    .container, .maxsulot, .maxsulot__list{
         width: 100%;
-        padding: 10px;
-    }
-
-    .maxsulot{
-        width: 100%;
-        padding-top: 30px;
     }
 
     .maxsulot__list{
-        width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
 
     .maxsulot__item{
-        width: 48%;
-        
-    }
-
-    .maxsulot__img{
-        width: 100%;
-        height: 120px;
-    }
-
-    .maxsulot__name, .maxsulot__fullname{
-        margin: 0;
-        font-size: 16px;
-    }
-
-    .maxsulot__artistname{
-        font-size: 16px;
-        margin-bottom: 5px;
-    }
-
-}
-
-@media only screen and (max-width: 576px){
-    .container{
-        width: 100%;
+        width: 47%;
+        margin-bottom: 10px;
     }
 
     .maxsulot{
-        padding-top: 50px;
+        padding-top: 20px;
     }
-
-    .maxsulot__list{
-        width: 100%;
-        flex-wrap: wrap;
-    }
-
-    .maxsulot__img{
-        width: 100%;
-        height: 190px;
-    }
-
-    .maxsulot__name, .maxsulot__fullname, .maxsulot__artistname{
-        font-size: 18px;
-        margin: 5px 0px;
-    }
-}
-
-
-@media only screen and (max-width: 524px){
-    .container{
-        width: 100%;
-        padding: 10px;
-    }
-
-    .maxsulot__list{
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .maxsulot__item{
-        width: 48%;
-        margin-bottom: 20px;
-    }
-
+    
 }

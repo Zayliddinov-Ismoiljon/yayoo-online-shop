@@ -126,152 +126,28 @@
     height: 200px;
   }
 
-  @media only screen and (max-width:375px){
-    .container{
-      width: 100%;
-      padding: 10px;
-    }
-
-    .header{
-      width: 100%;
-    }
-
-    .logo{
-      width: 80px;
-      height: 60px;
-      margin-right: 15px;
-    }
-
-    .header__about{
-      width: 100%;
-    }
-
-    .header__list{
-      width: 90%;
-      display: flex;
-      justify-content: space-between;
-      margin-right: 10px;
-    }
-
-    .header__itemlink{
-      font-size: 10px;
-    }
-
-    input[type=search]{
-      display: none;
-    }
-
-    .header__btn{
-      width: 25px;
-      height: 25px;
-    }
-
-    .burgerBtn-span{
-      width: 100%;
-    }
-
-    .header-main{
-      width: 100%;
-      margin-top: 20px;
-    }
-
-    .header__btn{
-      width: 20px;
-      height: 20px;
-    }
-
-    .header-main__info{
-      width: 210px;
-    }
-
-    .header-main__span{
-      margin: 5px 0px ;
-      padding: 0;
-    }
-
-    .header-main__zakas{
-      width: 76px;
-      margin-bottom: 0;
-      font-size: 14px;
-      font-weight: 400;
-      padding: 5px;
-    }
+@media only screen and (max-width:568px){
+  .conatiner, .header{
+    width: 100%;
   }
 
-
-  @media only screen and (max-width:576px){
-    .container{
-      width: 100%;
-      padding: 10px;
-    }
-
-    .header{
-      width: 100%;
-    }
-
-    .logo{
-      width: 140px;
-      height: 70px;
-    }
-
-    .header__about{
-      width: 70%;
-    }
-
-    .header__list{
-      width: 90%;
-      display: flex;
-      justify-content: space-between;
-      margin-right: 10px;
-    }
-
-    .header__itemlink{
-      font-size: 14px;
-    }
-
-    input[type=search]{
-      display: none;
-    }
-
-    .header__btn{
-      width: 30px;
-      height: 30px;
-    }
+  .header .form{
+    display: none;
   }
 
-
-  @media only screen and (max-width:426px){
-    .logo{
-      width: 100px;
-      height: 60px;
-    }
+  .logo{
+    width: 80px;
   }
 
-  @media only screen and (max-width:390px){
-    .logo{
-      width: 80px;
-      height: 50px;
-    }
+  .header__about{
+    width: 60%;
   }
 
-  @media only screen and (max-width:384px){
-    .header__about{
-      width: 80%;
-    }
+  .header__itemlink{
+    font-size: 13px;
   }
 
-  @media only screen and (max-width:368px){
-    .header__about{
-      width: 90%;
-    }
+  .header__btn{
+    display: none;
   }
-
-  @media only screen and (max-width:361px){
-    .header__about{
-      width: 95%;
-    }
-
-    .header__itemlink{
-      font: 12px;
-    }
-  }
+}

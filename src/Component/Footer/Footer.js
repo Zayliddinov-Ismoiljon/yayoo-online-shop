@@ -14,9 +14,9 @@ export default function Footer() {
                 Funding freemium long tail hypotheses first mover advantage assets ownership
             </span>
             <a href="mailto:zayliddinovismoiljon@gmail.com" target="_blank" className="footer__emaillink">
-                zayliddinovismoiljon@gmail.com
+                javohkir@gmail.com
             </a>
-            <a href="tel:+998903707724" className="footer__tellink">+998903707724</a>
+            <a href="tel:+998977777777" className="footer__tellink">+998977777777</a>
         </div>
         <div className="footer__service">
             <h3 className="footer__title">

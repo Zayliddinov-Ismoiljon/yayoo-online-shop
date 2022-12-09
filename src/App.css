@@ -45,3 +45,25 @@ footer{
         height: 370px;
     }
 }
+
+@media only screen and (max-width:356px){
+    header{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width:344px){
+    header{
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    header{
+        height: 600px;
+    }
+
+    footer{
+        padding-top: 30px;
+    }
+}
