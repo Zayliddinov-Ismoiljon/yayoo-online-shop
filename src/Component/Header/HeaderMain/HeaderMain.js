@@ -1,5 +1,5 @@
 import React from 'react'
-import Kirmashina from "../../../Assets/Images/kirmashina.png";
+import Komp from '../../../Assets/Images/komp.png'
 import Logo from "../../../Assets/Images/Logo.png"
 
 import "./HeaderMain.css"
@@ -7,7 +7,7 @@ import "./HeaderMain.css"
 export default function HeaderMain() {
   return (
     <div className='header-main'>
-        <img src={Kirmashina} alt="kirmashina images" className='header-main__img' />
+        <img src={Komp} alt="kirmashina images" className='header-main__img' />
         <div className="header-main__info">
             <div className="header-main__about">
             <img src={Logo} alt="logo images" className="header-main__logo" />
